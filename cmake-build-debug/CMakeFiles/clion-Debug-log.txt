@@ -1,0 +1,6 @@
+"C:\Users\fing.labcom\AppData\Local\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/fing.labcom/AppData/Local/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\fing.labcom\CLionProjects\openmp01 -B C:\Users\fing.labcom\CLionProjects\openmp01\cmake-build-debug
+-- Version: 10.1.0
+-- Build type: Debug
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug

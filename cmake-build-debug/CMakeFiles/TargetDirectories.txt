@@ -1,0 +1,15 @@
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/openmp01.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/openmp02.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/list_install_components.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/install.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/install/local.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/install/strip.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/list_install_components.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/install.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/install/local.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/_deps/fmt-build/CMakeFiles/install/strip.dir
