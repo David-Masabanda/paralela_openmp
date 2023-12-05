@@ -1,5 +1,6 @@
 C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/openmp01.dir
 C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/openmp02.dir
+C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/calculoPI.dir
 C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug/CMakeFiles/list_install_components.dir

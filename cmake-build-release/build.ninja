@@ -108,6 +108,40 @@ build openmp02.exe: CXX_EXECUTABLE_LINKER__openmp02_Release CMakeFiles/openmp02.
   TARGET_IMPLIB = libopenmp02.dll.a
   TARGET_PDB = openmp02.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target calculoPI
+
+
+#############################################
+# Order-only phony target for calculoPI
+
+build cmake_object_order_depends_target_calculoPI: phony || cmake_object_order_depends_target_fmt
+
+build CMakeFiles/calculoPI.dir/calculoPI.cpp.obj: CXX_COMPILER__calculoPI_unscanned_Release C$:/Users/fing.labcom/CLionProjects/openmp01/calculoPI.cpp || cmake_object_order_depends_target_calculoPI
+  DEP_FILE = CMakeFiles\calculoPI.dir\calculoPI.cpp.obj.d
+  FLAGS = -fopenmp -O3 -DNDEBUG -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-release/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles\calculoPI.dir
+  OBJECT_FILE_DIR = CMakeFiles\calculoPI.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calculoPI
+
+
+#############################################
+# Link the executable calculoPI.exe
+
+build calculoPI.exe: CXX_EXECUTABLE_LINKER__calculoPI_Release CMakeFiles/calculoPI.dir/calculoPI.cpp.obj | _deps/fmt-build/libfmt.a || _deps/fmt-build/libfmt.a
+  FLAGS = -fopenmp -O3 -DNDEBUG
+  LINK_LIBRARIES = _deps/fmt-build/libfmt.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\calculoPI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = calculoPI.exe
+  TARGET_IMPLIB = libcalculoPI.dll.a
+  TARGET_PDB = calculoPI.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -285,6 +319,8 @@ build _deps/fmt-build/install/strip: phony _deps/fmt-build/CMakeFiles/install/st
 # =============================================================================
 # Target aliases.
 
+build calculoPI: phony calculoPI.exe
+
 build fmt: phony _deps/fmt-build/libfmt.a
 
 build libfmt.a: phony _deps/fmt-build/libfmt.a
@@ -301,7 +337,7 @@ build openmp02: phony openmp02.exe
 #############################################
 # Folder: C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-release
 
-build all: phony openmp01.exe openmp02.exe _deps/fmt-build/all
+build all: phony openmp01.exe openmp02.exe calculoPI.exe _deps/fmt-build/all
 
 # =============================================================================
 

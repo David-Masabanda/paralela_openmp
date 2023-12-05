@@ -15,9 +15,11 @@ FetchContent_MakeAvailable(fmt)
 #Habilita el soporte para OpenMP
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
 
-
 add_executable(openmp01 openmp01.cpp)
 add_executable(openmp02 openmp02.cpp)
+add_executable(calculoPI  calculoPI.cpp)
+
 target_link_libraries(openmp01 fmt::fmt)
 target_link_libraries(openmp02 fmt::fmt)
+target_link_libraries(calculoPI fmt::fmt)
 
