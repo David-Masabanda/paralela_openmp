@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"cmake-build-release/_deps/fmt-src/CMakeLists.txt"
+			"cmake-build-debug/_deps/fmt-src/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -48,10 +48,10 @@
 			"destination" : "lib",
 			"paths" : 
 			[
-				"_deps/fmt-build/libfmt.a"
+				"_deps/fmt-build/libfmtd.a"
 			],
 			"targetId" : "fmt::@976f4f0bee90b99ecdb6",
-			"targetIndex" : 1,
+			"targetIndex" : 2,
 			"type" : "target"
 		},
 		{
@@ -60,19 +60,19 @@
 			"destination" : "include/fmt",
 			"paths" : 
 			[
-				"cmake-build-release/_deps/fmt-src/include/fmt/args.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/chrono.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/color.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/compile.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/core.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/format.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/format-inl.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/os.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/ostream.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/printf.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/ranges.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/std.h",
-				"cmake-build-release/_deps/fmt-src/include/fmt/xchar.h"
+				"cmake-build-debug/_deps/fmt-src/include/fmt/args.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/chrono.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/color.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/compile.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/core.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/format.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/format-inl.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/os.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/ostream.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/printf.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/ranges.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/std.h",
+				"cmake-build-debug/_deps/fmt-src/include/fmt/xchar.h"
 			],
 			"type" : "file"
 		},
@@ -82,8 +82,8 @@
 			"destination" : "lib/cmake/fmt",
 			"paths" : 
 			[
-				"cmake-build-release/_deps/fmt-build/fmt-config.cmake",
-				"cmake-build-release/_deps/fmt-build/fmt-config-version.cmake"
+				"cmake-build-debug/_deps/fmt-build/fmt-config.cmake",
+				"cmake-build-debug/_deps/fmt-build/fmt-config-version.cmake"
 			],
 			"type" : "file"
 		},
@@ -96,7 +96,7 @@
 			[
 				{
 					"id" : "fmt::@976f4f0bee90b99ecdb6",
-					"index" : 1
+					"index" : 2
 				},
 				{
 					"id" : "fmt-header-only::@976f4f0bee90b99ecdb6",
@@ -115,7 +115,7 @@
 			"destination" : "lib/pkgconfig",
 			"paths" : 
 			[
-				"cmake-build-release/_deps/fmt-build/fmt.pc"
+				"cmake-build-debug/_deps/fmt-build/fmt.pc"
 			],
 			"type" : "file"
 		}
@@ -123,6 +123,6 @@
 	"paths" : 
 	{
 		"build" : "_deps/fmt-build",
-		"source" : "cmake-build-release/_deps/fmt-src"
+		"source" : "cmake-build-debug/_deps/fmt-src"
 	}
 }

@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -21,28 +21,29 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
-						3
+						1,
+						3,
+						4
 					]
 				},
 				{
 					"build" : "_deps/fmt-build",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.fmt-build-Debug-575ef8f06deb17f18ab7.json",
+					"jsonFile" : "directory-_deps.fmt-build-Release-cdf8af7b986ee4b59634.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.8"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "cmake-build-debug/_deps/fmt-src",
+					"source" : "cmake-build-release/_deps/fmt-src",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "Release",
 			"projects" : 
 			[
 				{
@@ -58,8 +59,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						2,
-						3
+						1,
+						3,
+						4
 					]
 				},
 				{
@@ -71,7 +73,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				}
 			],
@@ -80,28 +82,35 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "calculoPI::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-calculoPI-Debug-12ac9b3b6b114608f21a.json",
+					"jsonFile" : "target-calculoPI-Release-45cc5ef070e4f5f95d57.json",
 					"name" : "calculoPI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio-Release-b38f64eb9da032fa1043.json",
+					"name" : "ejercicio",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "fmt::@976f4f0bee90b99ecdb6",
-					"jsonFile" : "target-fmt-Debug-0fbf365bffaf19639004.json",
+					"jsonFile" : "target-fmt-Release-2ad64a02040e670e226b.json",
 					"name" : "fmt",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "openmp01::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-openmp01-Debug-afc0fcd92e87ea0661fa.json",
+					"jsonFile" : "target-openmp01-Release-9846799767141ad47abc.json",
 					"name" : "openmp01",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "openmp02::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-openmp02-Debug-201ba12c32a4158e82fc.json",
+					"jsonFile" : "target-openmp02-Release-711acc8bb4816d8ddcf3.json",
 					"name" : "openmp02",
 					"projectIndex" : 0
 				}
@@ -111,7 +120,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-debug",
+		"build" : "C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-release",
 		"source" : "C:/Users/fing.labcom/CLionProjects/openmp01"
 	},
 	"version" : 

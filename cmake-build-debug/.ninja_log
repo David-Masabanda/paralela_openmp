@@ -1,17 +1,11 @@
 # ninja log v5
+2	569	7234858340369430	CMakeFiles/calculoPI.dir/calculoPI.cpp.obj	dafeb4b1defb0fca
 2	314	7228802599986096	CMakeFiles/openmp01.dir/main.cpp.obj	a1eeb315c6bd6298
 314	487	7228802601673759	openmp01.exe	a415a6422d7d228e
+569	741	7234858342038384	calculoPI.exe	1b764ad60ddeaa93
 3	889	7228792512333614	_deps/fmt-build/CMakeFiles/fmt.dir/src/os.cc.obj	6850be3470f29d45
 5	1663	7228792520041147	_deps/fmt-build/CMakeFiles/fmt.dir/src/format.cc.obj	9c698c26fbe75330
-1663	1882	7228792522274241	_deps/fmt-build/libfmtd.a	16228a0507306e60
-1	511	7234820354084411	build.ninja	18b3eb47f745268a
+1	511	7240873011587196	build.ninja	18b3eb47f745268a
 315	494	7228805008202528	openmp02.exe	8b8afd4feefe2bc0
+1663	1882	7228792522274241	_deps/fmt-build/libfmtd.a	16228a0507306e60
 3	314	7228805006440940	CMakeFiles/openmp02.dir/openmp02.cpp.obj	3bc0c9b658677ced
-3	1412	7234826917605254	CMakeFiles/calculoPI.dir/calculoPI.cpp.obj	dafeb4b1defb0fca
-1413	2704	7234826930454479	calculoPI.exe	1b764ad60ddeaa93
-2	446	7234828407170324	CMakeFiles/calculoPI.dir/calculoPI.cpp.obj	dafeb4b1defb0fca
-446	618	7234828408843045	calculoPI.exe	1b764ad60ddeaa93
-2	553	7234857638876838	CMakeFiles/calculoPI.dir/calculoPI.cpp.obj	dafeb4b1defb0fca
-553	727	7234857640574289	calculoPI.exe	1b764ad60ddeaa93
-2	569	7234858340369430	CMakeFiles/calculoPI.dir/calculoPI.cpp.obj	dafeb4b1defb0fca
-569	741	7234858342038384	calculoPI.exe	1b764ad60ddeaa93

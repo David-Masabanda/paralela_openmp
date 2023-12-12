@@ -142,6 +142,40 @@ build calculoPI.exe: CXX_EXECUTABLE_LINKER__calculoPI_Release CMakeFiles/calculo
   TARGET_IMPLIB = libcalculoPI.dll.a
   TARGET_PDB = calculoPI.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ejercicio
+
+
+#############################################
+# Order-only phony target for ejercicio
+
+build cmake_object_order_depends_target_ejercicio: phony || cmake_object_order_depends_target_fmt
+
+build CMakeFiles/ejercicio.dir/ejercicio.cpp.obj: CXX_COMPILER__ejercicio_unscanned_Release C$:/Users/fing.labcom/CLionProjects/openmp01/ejercicio.cpp || cmake_object_order_depends_target_ejercicio
+  DEP_FILE = CMakeFiles\ejercicio.dir\ejercicio.cpp.obj.d
+  FLAGS = -fopenmp -O3 -DNDEBUG -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-release/_deps/fmt-src/include
+  OBJECT_DIR = CMakeFiles\ejercicio.dir
+  OBJECT_FILE_DIR = CMakeFiles\ejercicio.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ejercicio
+
+
+#############################################
+# Link the executable ejercicio.exe
+
+build ejercicio.exe: CXX_EXECUTABLE_LINKER__ejercicio_Release CMakeFiles/ejercicio.dir/ejercicio.cpp.obj | _deps/fmt-build/libfmt.a || _deps/fmt-build/libfmt.a
+  FLAGS = -fopenmp -O3 -DNDEBUG
+  LINK_LIBRARIES = _deps/fmt-build/libfmt.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ejercicio.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ejercicio.exe
+  TARGET_IMPLIB = libejercicio.dll.a
+  TARGET_PDB = ejercicio.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -321,6 +355,8 @@ build _deps/fmt-build/install/strip: phony _deps/fmt-build/CMakeFiles/install/st
 
 build calculoPI: phony calculoPI.exe
 
+build ejercicio: phony ejercicio.exe
+
 build fmt: phony _deps/fmt-build/libfmt.a
 
 build libfmt.a: phony _deps/fmt-build/libfmt.a
@@ -337,7 +373,7 @@ build openmp02: phony openmp02.exe
 #############################################
 # Folder: C:/Users/fing.labcom/CLionProjects/openmp01/cmake-build-release
 
-build all: phony openmp01.exe openmp02.exe calculoPI.exe _deps/fmt-build/all
+build all: phony openmp01.exe openmp02.exe calculoPI.exe ejercicio.exe _deps/fmt-build/all
 
 # =============================================================================
 
